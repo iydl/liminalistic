@@ -1,49 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>liminalistic</title>
-    <style>
-        body {
-            font-family: monospace, monospace;
-            text-align: center;
-            background-color: #000; /* black background */
-            color: #fff; /* white text */
-        }
-        .audio-container {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 50px;
-        }
-        .audio-player {
-            flex: 1;
-            margin: 0 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>liminalistic</title>
+  <style>
+    body {
+      font-family: monospace, monospace;
+      text-align: center;
+      background-color: #000;
+      /* black background */
+      color: #fff;
+      /* white text */
+    }
+
+    .audio-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+
+    .audio-player {
+      flex: 1;
+      margin: 0 10px;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="audio-container">
-        <div class="audio-player">
-            <p>lie (intro) - i wish i didnt exist</p>
-            <audio controls>
-                <source src="lie (intro).wav" type="audio/wav">
-            </audio>
-        </div>
-        <div class="audio-player">
-            <p>there is no happy ending (bonus) - i see her at school pt. 2</p>
-            <audio controls>
-                <source src="there is no happy ending (bonus).wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-        <div class="audio-player">
-            <p>monkey bars - playground 2</p>
-            <audio controls>
-                <source src="monkey bars.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+  <div class="audio-container">
+    <div class="audio-player">
+      <p>lie (intro) - i wish i didnt exist</p>
+      <audio controls>
+        <source src="lie (intro).wav" type="audio/wav">
+      </audio>
     </div>
+    <div class="audio-player">
+      <p>there is no happy ending (bonus) - i see her at school pt. 2</p>
+      <audio controls>
+        <source src="there is no happy ending (bonus).wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-player">
+      <p>monkey bars - playground 2</p>
+      <audio controls>
+        <source src="monkey bars.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </div>
+    <div class="audioplayer">
+      <p>i saw her and her tan skin today - i see her at school</p>
+      <audio controls>
+        <source src="i saw her and her tan skin today.wav" type="audio/wav">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audioplayer">
+      <p>i have no words - i wish i didnt exist</p>
+      <audio controls>
+        <source src="i have no words.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audioplayer">
+      <p>i missed school and now i miss her - i see her at school</p>
+      <audio controls>
+        <source src="i missed school and now i miss her.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    </audio>
+  </div>
+  </div>
 </body>
+
 </html>
