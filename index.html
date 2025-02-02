@@ -1,88 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="favicon.png" />
-  <title>liminalistic</title>
-  <style>
-    body {
-      font-family: monospace, monospace;
-      text-align: center;
-      background-color: #000;
-      /* black background */
-      color: #fff;
-      /* white text */
-    }
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; /* Align items vertically in the center */
+  background-color: #222;
+  font-family: monospace
+}
 
-    .audio-container {
-      display: flex;
-      align-items: space-around;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin-top: 50px;
-    }
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
 
-    .audio-player {
-      flex: 1;
-      margin: 0 10px;
-      margin-bottom: 20px;
+li {
+  margin-bottom: 10px;
+}
 
-    }
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #444; /* Example button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+}
 
-    .container {
-      position: relative;
-    }
-
-    .bottomleft {
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-      font-size: 18px;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-      opacity: 0.3;
-    }
-
-    strong {
-      font-family: monospace;
-      font-size: 10px;
-    }
-  </style>
+a:hover {
+  background-color: #777; /* Darker shade on hover */
+}
+</style>
 </head>
-
 <body>
-  <div class=" audio-container">
-    <div class="audio-player">
-      <p>to (intro) - i wish i didnt exist 2</p>
-      <audio controls>
-        <source src="1. to (intro).mp3" type="audio/wav">
-      </audio>
-    </div>
-    <div class="audio-player">
-      <p>computer - i wish i didnt exist 2</p>
-      <audio controls>
-        <source src="2. computer.mp3" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-    <div class="audio-player">
-      <p>i think its time i say goodbye - i wish i didnt exist 2</p>
-      <audio controls>
-        <source src="4. i think its time i say goodbye.mp3" type="audio/wav">
-        Your browser does not support the audio element.
-    </div>
-  </div>
-  </div>
 
-  <footer>
-    <p>i've poured feelings from real life experiences intom these songs...</p>
-    <p>i cant see her anymore :(</p>
-  </footer>
+<ul>
+  <li><a href="https://docs.google.com/document/d/1sRk2Ou8ls1uU9KUFpBBZN8b37qr5ADPIKhcXsMaIjWM/edit?usp=sharing">liminalistic backstory</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17wRICIx2qhtGgWCsWYQno-gyzr_Y3sTc?usp=sharing">i miss you but not the things you did to me (mar 25)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/18FkhF8mSsDPh39HHHSpfdl74ws3BV0kM?usp=sharing">say your goodbyes (mar 28)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/18JHI6J30jGfGzkSE_zeNXrdH5bnJ6Fqr?usp=sharing">playground (mar 31)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/18E-sweq-_b6wPVOo4MiOE5qs9AEJMli6?usp=sharing">you are so special to me, i wish you knew that (apr 7)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17O7c8HKIUcL6TWhGYj-XGY0dGdVBHhc6?usp=sharing">i'm really going to miss you next year (apr 14)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/170h8C9NCl7f4tNTQ3N3pwG16ScXRo9p6?usp=sharing">dreams never come true(apr 21)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/18MI0374yGAHD4pnPY59_ebfJuKP3pii2?usp=sharing">letting go... (apr 28)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/18J1N_bASTiVXLQgH_YFEv3ZG3ET2WA5x?usp=sharing">playground 2 (may 5)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17t3oemiUT7YBgOL4bR9XjqVb9NTIwUf9?usp=sharing">i see her at school (may 12)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17n82vlWedG3r0lCvQhvXfg_6WMjdNOJo?usp=sharing">i see her at school pt. 2 (may 19)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17RZrrA78LQlFAsLzYbjCDpA2mC7DJnBW?usp=sharing">i wish i didn't exist (may 26)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17n6b7FbooPK1-EndRJEVD-5wOiCxgDOC?usp=sharing">i see her at school pt. 3 (june 2)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17m_dAtSSzcgxOnpOxgv2VC4nDaqn2YVI?usp=sharing">i see her at school pt. 4 (june 9)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/174Hlbb2MKRVm3ORD2HK86krL4215AdKv?usp=sharing">different school next year, maybe i'll see you again one day (jun 16)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/18d58jCLcOFBdZ3-z0cr57NNj2HFlxd47?usp=sharing">last day of school, i'm really going to miss you next year (jun 23)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/18HsM63cb3hUPDw6_VaPoPJDY8i8M5_FF?usp=sharing">realm of sadness (jun 30)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/1889ahoBhzHybJ8G1vEDQz0VD4FwplJyf?usp=sharing">i don't see her at school (jul 7)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17d0QV6ebeysj9H7Vlp_CRGR4r7a9Y-jW?usp=sharing">i wish i could see her (jul 14)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17ON0tyiVrcwcVrznPIXoYNJfCEBzK_ub?usp=sharing">i wish i didn't exist 2 (jul 21)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/174qGSUbUpuvjb2wwaPyDB5S01wwTzVeR?usp=sharing">closed doors (jul 28)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/17AhqBqhB2888ERLWVBKUR3qGsKCjrHtI?usp=sharing">call for help (aug 3)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/181qAo8NzHN2iDTkjItuisrXAKlPngFFV?usp=sharing">i hate this feeling (aug 11)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/16xgLwWvW_P70IhkD9oIrks2GUYNKEjb4?usp=sharing">horror (aug 18)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/182n84VCZxEGNqu_pfOb9v6LVSEsrsMc9?usp=sharing">i don't see her at school pt. 2 (aug 26)</a></li>
+  <li><a href="https://drive.google.com/drive/folders/180GvXdjN9yKydaAPuj2MpqzGdQAL_svJ?usp=sharing">i miss you (sep 29)</a></li>
+</ul>
+
 </body>
-
 </html>
